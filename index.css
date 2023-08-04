@@ -1,0 +1,38 @@
+#Title {
+  font-family: 'Press Start 2P', cursive;
+  margin: 5%;
+  color: #FEF2BF;
+  font-size: 300%;
+}
+.row {
+  display: flex; 
+  gap: 50px;
+  justify-content: center;
+}
+.containner {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+
+.game_over {
+  background-color: red;
+}
